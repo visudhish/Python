@@ -1,6 +1,8 @@
-x = 5
-X=6
-y = "John"
-print(x)
-print(y)
-print(X)
+x= 'Super'
+print(type(x)) 
+x=10.0
+print(type(x)) 
+z = int("3I") 
+print(z)
+    
+      
