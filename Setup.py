@@ -1,9 +1,7 @@
-x= 'Super'
-print(type(x)) 
-x=10.0
-print(type(x)) 
-z = int("4") 
-print(z)
-
+stringage = input("Enter your age: ")
+age = int(stringage)
+if age>18:
+ print('Elgible for Voting')
+else:
+ print('Not eligible for voting')
     
-      
