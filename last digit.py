@@ -21,6 +21,7 @@ Gameskinint=int(Gameskin)
 #endinitilisation
 #logic
 totalincome=(numberofhoursint*hourlyincomeint)
+print("Total income is",totalincome)
 Totalcostofgadgets=(ps4costint+Tvcostint+Gameskinint)
 if(totalincome>Totalcostofgadgets):
     print("I can buy all gadgets")
