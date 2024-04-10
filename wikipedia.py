@@ -11,6 +11,6 @@ Cowmint=int(Cowm)
 #logic
 Totalconsumption=(Dowint+Mowint)
 if(Totalconsumption>100):
-    print("Too much consumpution")
+    print("Too much consumpution ")
 if(Cowmint>Covwint):
     print("wow so many memes,lol")        
