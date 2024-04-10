@@ -23,7 +23,7 @@ print("lastdigit is",lastdigit)
 # totalincome=(numberofhoursint*hourlyincomeint)
 # print("Total income is",totalincome)
 # Totalcostofgadgets=(ps4costint+Tvcostint+Gameskinint)
-# if(totalincome>Totalcostofgadgets):6
+# if(totalincome>Totalcostofgadgets):
 #     print("I can buy all gadgets")
 # else:
 #     print("I cannot buy all the items") 
