@@ -6,3 +6,4 @@ numberint=int(number)
 #logic
 import math
 print("The factorial of",numberint,"is",math.factorial(numberint))
+
