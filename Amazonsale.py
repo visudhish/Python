@@ -1,15 +1,18 @@
 #Initilisation
-Product cost = input("Cost of the Product:")
-PCint = int(Product cost)
+Productcost = input("Cost of the Product:")
+PCint = int(Productcost)
 Location = input("Location name:")
-if(Location = USA):
-pay = 20$+5$
-payint = int(pay)
-    print("You have to pay ",payint,"20$ for the product and 5$ for shipping")
-elseif(Location=Europe):
-pay = 20$+7$
-payint = int(pay)
-    print("You have to pay ",payint,"20$ for the product and 7$ for shipping")
-else(Location = Canada):
-    print("You have to pay ",payint,"20$ for the product and 3$ for shipping")
+if(Location== "USA"):
+    payindollars=PCint+5
+    payint = int(payindollars)
+    print("you have to pay",payint,"in dollars")
+elif(Location =="Europe"):
+    payindollars = PCint+7
+    payint = int(payindollars)
+    print("youhave to pay",payint,"in dollars")
+    
+else:
+    payindollars=PCint+9
+    payint = int(payindollars)
+    print("youhave to pay",payint,"in dollars")
 #end
