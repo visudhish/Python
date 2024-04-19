@@ -1,0 +1,16 @@
+# #initilasation of sum in range
+# number = range(0,11)
+# sum = sum(number,10)
+# print(sum)
+# #end
+
+# #sum of first 10 natural numbers
+# number = 10
+# sum = number*(number+1)/2
+# print("sum of the first",number,"is",sum)
+# #end
+
+number = input("Enter a number : ")
+numberint = int(number)
+sum = numberint*(numberint+1)/2
+print("sum of the first natural numbers ",numberint,"is",sum)
