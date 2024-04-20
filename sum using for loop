@@ -12,5 +12,8 @@
 
 number = input("Enter a number : ")
 numberint = int(number)
-sum = numberint*(numberint+1)/2
-print("sum of the first natural numbers ",numberint,"is",sum)
+sum =0
+for num in range(1,numberint+1):
+    previousum = sum
+    sum = sum+num
+    print(previousum,"+",num ,"=", sum)

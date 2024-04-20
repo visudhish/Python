@@ -1,5 +1,5 @@
 number = input("Enter a number : ")
 numberint = int(number)
-for count in range(1,11):
-    multiplication = count*numberint
-    print(numberint,"x",count,"=",multiplication)
+for num in range(1,11):
+    multiplication = num*numberint
+    print(numberint,"x",num,"=",multiplication)
