@@ -1,0 +1,27 @@
+#This program displays arithematic operation of 2 given numbers
+#initilisation
+num1 = input("num1 :")
+num1int = int(num1)
+num2 = input("num2 :")
+num2int = int(num2)
+#endinitilisation
+#operation 
+operation = input("+,-,/,* : ")
+if(operation == "+"):
+    result = num1int+num2int
+elif(operation == "-"):
+    result = num1int-num2int
+elif(operation == "/"):
+    result = num1int/num2int
+elif( operation == "*"):
+    result = num1int*num2int
+else:
+    print("nothing")
+print(num1int ,operation,num2int,":",result)
+#end
+
+
+ 
+
+
+
