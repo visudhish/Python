@@ -1,9 +1,15 @@
-n = int(input("enter nmuber1 :"))
-n20 = int(input("enter number20 : "))
+#This program Displays given number is prime or composite
+Givennumber = int(input("Given number : "))
+factorcount = 0
+for loopvariable in range(1,Givennumber+1):
+  if Givennumber % loopvariable==0:
+     factorcount = factorcount+1
+     
+print(factorcount)
+if factorcount == 2:
+   print("prime number")
+else:
+   print("composite")
+#end program
 
-for lv in range(n,n20,1):
-  series=n,n+(n+1),(n+1)+(n+2)
-  print(series)
-    
-    
-    
+   
