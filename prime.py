@@ -5,11 +5,10 @@ for loopvariable in range(1,Givennumber+1):
   if Givennumber % loopvariable==0:
      factorcount = factorcount+1
      
-print(factorcount)
+print("factorcount is",factorcount)
 if factorcount == 2:
-   print("prime number")
+   print(" number is prime number")
 else:
-   print("composite")
+   print("number is composite")
 #end program
 
-   
