@@ -3,11 +3,10 @@
 Name = input("Enter a name : ")
 #input numberoftimes name to be printed
 Numberoftimes = int(input("number of times name to be printed : "))
-#starting numbercount
-Numbercount = 0
+count = 0
 #print name num of times using while loop
-while Numbercount <= Numberoftimes:
+while count <  Numberoftimes:
     print(Name)
-    Numbercount = Numbercount+1
+    count = count+1
 #end program
 
