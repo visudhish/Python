@@ -7,3 +7,4 @@ while quotient > 0:
     sum= sum+reminder
     quotient=quotient/10
 print(number,"sum of the digits in the number",sum)
+#end program
