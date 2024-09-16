@@ -1,0 +1,6 @@
+Name = input("Enter users name : ")
+numberoftimes = input("Number of times name  to be displayed : ")
+numberoftimesint = int(numberoftimes)
+for name in range(numberoftimesint):
+    print(Name)
+
